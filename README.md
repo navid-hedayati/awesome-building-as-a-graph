@@ -60,12 +60,21 @@ Hence, IfcOWL is a comprehensive ontology that contains resources applicable to 
 
 * [Digital Construction Ontologies (DiCon)](https://digitalconstruction.github.io/v/0.5/): DiCon is a modularized ontology network designed to enable semantic interoperability between systems in the construction and renovation domain. Its various modules are further sighted here in their respective categories.
 
-### Building Topologies:
+### Building topologies:
 
 * [Building Topology Ontology (BOT)](https://w3c-lbd-cg.github.io/bot/): A minimal ontology used to describe the core topological concepts of a building. The relationships between spatial elements in a building and their surrounding building elements can be effectively mapped through this ontology.
+BOT offers many alignment modules with other ontologies, including:
+    * [BRICK](https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/BRICKAlignment.ttl)
+    * [DERIROOMS](https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/DERIROOMAlignment.ttl)
+    * [DogOnt](https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/DOGONTAlignment.ttl)
+    * [DUL](https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/DULAlignment.ttl)
+    * [IfcOWL](https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/IFCOWL4_ADD2Alignment.ttl)
+    * [SAREF4Bldg](https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/SAREF4BLDGAlignment.ttl)
+    * [ThinkHome](https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/THINKHOMEAlignment.ttl)
+    * [Realestate Core](https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/RECAlignment.ttl)
 
 * [Bosch Building Technologies - Foundation Ontology](https://github.com/boschglobal/building-technologies-ontology-central/tree/main/com/bosch/bt/Foundation/2.0.0): A module of larger ontological framework developed by [Bosch Building Technologies](https://www.boschbuildingtechnologies.com/xc/en/). The foundation ontology is the digital common foundation layer of other domain ontology models within this ontological framework. The Foundation Ontology model defines common concepts like the space topology structure, assets, data points, etc.
 
-#### Building elements:
+### Building elements:
 
 
